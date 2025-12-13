@@ -24,9 +24,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Misaki Sakashita（坂下　美咲）"
+  name             : |
+    Misaki Sakashita
+    （坂下　美咲） # ← 改行
   pronouns         : "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I graduated from Osaka University and earned a Ph.D. in Science. I have been working as an assistant professor at Tokyo University of Science."
   location         : "Japan"
   employer         : "Tokyo University of Science"
   uri              : # URL
