@@ -9,6 +9,12 @@ redirect_from:
 
 魚類・哺乳類の椎骨を主な対象として、生き物の形態形成メカニズムを解明する研究をしています。専門分野は数理生物学、発生生物学です。現在は[東京理科大学創域理工学部生命生物科学科](https://www.tus.ac.jp/academics/faculty/sciencetechnology/applied_biologicalscience/)で助教として働いています。学位は、大阪大学大学院生命機能研究科近藤滋研究室で2021年に博士（理学）を取得しました。 
 
+Others
+======
+Reviewer
+------
+- 2025: Journal of Spine Surgery, Journal of Fish Biology
+
 {% comment %}
 A data-driven personal website
 ======
