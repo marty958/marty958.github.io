@@ -6,10 +6,6 @@ redirect_from:
   - /entry/management-research-life
 tags:
   - 研究
-# layout: single
-# toc: true
-# toc_sticky: false
-# toc_label: "目次"
 ---
 
 ## 目次
