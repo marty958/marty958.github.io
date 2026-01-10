@@ -6,6 +6,10 @@ redirect_from:
   - /entry/management-research-life
 tags:
   - 研究
+layout: single
+toc: true
+toc_sticky: false
+toc_label: "目次"
 ---
 
 　この記事は [CAMPHOR- Advent Calendar 2019](https://advent.camph.net/) 3日目の記事です．2日目の記事は [honai](https://honai.me/) の [サイトの読み込みが終わらないのでアニメーションを調べてみた](https://honai.me/blog/post/material-ui-progress-animation) でした．

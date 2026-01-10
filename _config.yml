@@ -248,7 +248,6 @@ defaults:
       comments: true
       share: true
       related: true
-      toc: true          # 追加：目次を有効化
   # _pages
   - scope:
       path: ""
