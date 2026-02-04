@@ -14,6 +14,7 @@ Others
 
 Reviewer
 ------
+- 2022: SIMULATION: Transactions of The Society for Modeling and Simulation International
 - 2025: Journal of Spine Surgery, Journal of Fish Biology
 
 {% comment %}
