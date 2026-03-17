@@ -9,13 +9,30 @@ redirect_from:
 
 魚類・哺乳類の椎骨を主な対象として、生き物の形態形成メカニズムを解明する研究をしています。専門分野は数理生物学、発生生物学です。現在は[東京理科大学創域理工学部生命生物科学科](https://www.tus.ac.jp/academics/faculty/sciencetechnology/applied_biologicalscience/)で助教として働いています。学位は、大阪大学大学院生命機能研究科近藤滋研究室で2021年に博士（理学）を取得しました。 
 
-Others
+Awards/受賞
 ======
 
-Reviewer
+Academic Awards/学術賞
 ------
-- 2022: SIMULATION: Transactions of The Society for Modeling and Simulation International
+- 2025.12: [Reviewer of the Month (2025) - Journal of Spine Surgery](https://jss.amegroups.org/post/view/reviewer-of-the-month-2025#misakisakashita)
+- 2024.06: [第44回日本骨形態計測学会若手研究者賞](https://www.tus.ac.jp/today/archive/20240624_0630.html)
+- 2019.07: 第39回日本骨形態計測学会学術奨励賞 
+
+Awards of Supervised Students/指導学生の受賞
+------
+（◯は発表者）
+- 2026.03: 日本動物学会関東支部第78回大会ポスター優秀発表賞（◯中村匠、山田陸、坂下美咲、和田直之）
+- 2024.03: 日本動物学会関東支部第76回大会優秀発表賞（◯田名網花奈、中西幸人、村田果凛、坂下美咲、和田直之）
+- 2024.03: 日本動物学会関東支部第76回大会優秀発表賞（◯永井優汰、坂下美咲、和田直之）
+- 2023.11: The 17th International Collaboration Symposium on Information, Production and Systems (ISIPS 2023) Best Presentation Award (◯Longsen Yang, Misaki Sakashita, Shintaro Yamasaki)
+
+Others/その他
+======
+
+Reviewer/査読
+------
 - 2025: Journal of Spine Surgery, Journal of Fish Biology
+- 2022: SIMULATION: Transactions of The Society for Modeling and Simulation International
 
 {% comment %}
 A data-driven personal website
