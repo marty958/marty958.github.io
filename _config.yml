@@ -233,6 +233,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  simulation:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -290,6 +293,13 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _simulation
+  - scope:
+      path: ""
+      type: simulation
+    values:
+      layout: single
+      author_profile: true
 
 
 # Sass/SCSS
