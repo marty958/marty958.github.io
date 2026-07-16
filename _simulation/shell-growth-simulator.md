@@ -9,12 +9,26 @@ classes: wide
 
 パラメータ操作、断面編集、テクスチャ適用ができるインタラクティブな貝殻生成アプリです。
 
-<div style="width: 100%; height: 82vh; min-height: 640px; border: 1px solid #ddd;">
+<div class="shell-growth-embed">
   <iframe
-    src="{{ site.baseurl }}/assets/webgl/shell-growth-simulator/"
+    src="{{ '/assets/webgl/shell-growth-simulator/' | relative_url }}"
     title="Shell Growth Simulator"
-    style="width: 100%; height: 100%; border: 0;"
-    allow="fullscreen"
     allowfullscreen>
   </iframe>
 </div>
+
+<style>
+.shell-growth-embed {
+  width: 100%;
+  min-height: 640px;
+  height: min(82vh, 960px);
+  border: 1px solid #ddd;
+}
+
+.shell-growth-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
