@@ -18,6 +18,10 @@ body {
   width: 100vw;
   height: 100vh;
   background: #f6f6f6;
+  /* Let a single-finger drag reach Unity instead of scrolling or zooming the page. */
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #unity-canvas:fullscreen {
