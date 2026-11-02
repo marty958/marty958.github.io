@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#f6f6f6">
+    <title>Shell Growth Simulator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="unity-container">
+      <canvas id="unity-canvas" tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-loading-label">Loading Shell Growth Simulator&hellip;</div>
+        <div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
+      </div>
+      <div id="unity-warning"></div>
+      <div id="unity-footer">
+        <button id="unity-fullscreen-button" type="button" aria-label="Enter fullscreen">&#x26F6;</button>
+      </div>
+    </div>
+    <script>
+      const canvas = document.querySelector("#unity-canvas");
+
+      function unityShowBanner(message, type) {
+        const warningBanner = document.querySelector("#unity-warning");
+        const banner = document.createElement("div");
+        banner.textContent = message;
+        banner.className = type || "warning";
+        warningBanner.appendChild(banner);
+        warningBanner.style.display = "block";
+        if (type !== "error") {
+          setTimeout(() => {
+            banner.remove();
+            warningBanner.style.display = warningBanner.children.length ? "block" : "none";
+          }, 5000);
+        }
+      }
+
+      const buildUrl = "Build";
+      const config = {
+        dataUrl: buildUrl + "/ShellGrowthWeb.data",
+        frameworkUrl: buildUrl + "/ShellGrowthWeb.framework.js",
+        codeUrl: buildUrl + "/ShellGrowthWeb.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "MisakiSakashita",
+        productName: "Shell Growth Simulator",
+        productVersion: "0.1.0",
+        showBanner: unityShowBanner,
+      };
+
+      document.querySelector("#unity-loading-bar").style.display = "block";
+      const script = document.createElement("script");
+      script.src = buildUrl + "/ShellGrowthWeb.loader.js";
+      script.onload = () => {
+        createUnityInstance(canvas, config, progress => {
+          document.querySelector("#unity-progress-bar-full").style.width = (100 * progress) + "%";
+        }).then(unityInstance => {
+          document.querySelector("#unity-loading-bar").style.display = "none";
+          document.querySelector("#unity-fullscreen-button").onclick = () => unityInstance.SetFullscreen(1);
+        }).catch(message => alert(message));
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
